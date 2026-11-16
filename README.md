@@ -1,5 +1,7 @@
 # Chest X-Ray Pneumonia Classifier
 
+**Live app:** [pneumonia-classifier-app.onrender.com](https://pneumonia-classifier-app.onrender.com) (code in [pneumonia-classifier-app](https://github.com/Mubydeji/pneumonia-classifier-app)). Free hosting, so the first load can take a minute.
+
 A pneumonia classifier built from chest X-ray images, comparing two transfer learning
 architectures (ResNet-50 and EfficientNet-B0) under identical training conditions, with
 an interpretability check and a documented, clinically-motivated threshold choice.
@@ -98,6 +100,5 @@ roughly 15-20 minutes on a Kaggle T4 GPU.
 pneumonia-classifier/
 ├── pneumonia_classifier.ipynb   # full pipeline: data, training, evaluation, Grad-CAM
 ├── README.md
-├── requirements.txt
-└── images/                      # sample Grad-CAM outputs
+└── requirements.txt
 ```
